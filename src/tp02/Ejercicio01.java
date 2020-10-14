@@ -25,17 +25,24 @@ public class Ejercicio01 {
         do{
             System.out.print("Introduzca el valor de la tabla de multiplicar que quiere mostrar: ");
             numero = teclado.nextInt();
-            if(numero < 0 || numero > 10){
-                System.err.println("Error. El valor tiene que estar comprendido entre 0 y 10.");
+            if(numero < 1 || numero > 10){
+                System.err.println("Error. El valor tiene que estar comprendido entre 1 y 10.");
             }
-        }while(numero < 0 || numero > 10);
+        }while(numero < 1 || numero > 10);
         
         System.out.println("La tabla de multiplicar del " + numero + " es la siguiente:");
-        
-        for(int i = 0; i <= 10; i++){
+       
+        for(int i = 0; i <= 10; i++){ // i++, i = i+1
             resultado = numero * i;
             System.out.println(numero + " x " + i + " = " + resultado);
         }
+        
+        boolean r;
+        do{
+            System.out.println("");
+            r = false;
+        }while(r == true);
+               
     }
     
 }
