@@ -3,7 +3,7 @@
  * por teclado. El número que debe aceptar es del 1 al 10 y la tabla debe de 
  * ir desde el 0 al 10.
  */
-package tp02;
+package Sesion02;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Antonio Ramos
  */
-public class Ejercicio01 {
+public class E01_TablaMultiplicar {
 
     /**
      * @param args the command line arguments

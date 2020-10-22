@@ -1,7 +1,7 @@
 /*
  * Escribe un programa que pida por teclado 3 números y calcule su media.
  */
-package tp02;
+package Sesion02;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author Antonio Ramos
  */
-public class Ejercicio02 {
+public class E02_Media3Numeros {
     /**
      * @param args the command line arguments
      */

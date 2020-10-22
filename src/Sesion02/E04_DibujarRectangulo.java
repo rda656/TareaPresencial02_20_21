@@ -1,24 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Escribe un programa que dibuje un rectángulo de X x Y, teniendo que ser ambos mayores que 0.
+ * Ejemplo: el usuario ha introducido que un lado es 4 y el otro 6. Debe de mostrar:
+           ****
+           ****
+           ****
+           ****
+           ****
+           ****
  */
-package tp02;
+package Sesion02;
 
 import java.util.Scanner;
 
 /**
  *
- * @author profesor
+ * @author Antonio Ramos
  */
-public class Ejercicio04 {
+public class E04_DibujarRectangulo {
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int base, altura;
-        
+        System.out.println("Dibujando un rectángulo.");
+        System.out.println("-----------------------");
         do{
             System.out.print("Introduzca el valor de la base: ");
             base = teclado.nextInt();
